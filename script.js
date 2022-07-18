@@ -19,6 +19,6 @@ const s = date.getSeconds().toLocaleString('en-US', {
     useGrouping:false
 });
 const localTime = h + " : " + m + " : " + s;
-display.textContent = "Current local time is " + localTime;
+display.textContent = localTime;
 setTimeout(clock, 1000)
 }
